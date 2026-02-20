@@ -1,8 +1,11 @@
 body {
 
-    /*background:papayaWhip*/
-    background: LightSteelBlue;
+    background:papayaWhip;
+    /*background: LightSteelBlue;*/
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+}
+body#gallery {
+   background: LightSteelBlue;
 }
 
 div.side-by-side {
