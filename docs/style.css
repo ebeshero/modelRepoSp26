@@ -3,7 +3,24 @@ body {
     background:papayaWhip;
     /*background: LightSteelBlue;*/
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    line-height:1.5rem;
 }
+/* Introduced with RESUME styling */
+
+section#main { 
+padding:2em; 
+
+}
+
+section.sub1 {
+   padding-left:2em; 
+   border: 2px solid green;
+   background: lavender;
+    
+    
+}
+
+/*  Gallery display styling */
 body#gallery {
    background: LightSteelBlue;
 }
@@ -12,9 +29,12 @@ div.side-by-side {
     display: flex;
 }
 
+figure { background: black; text-align:center; }
+figcaption {font-size:smaller; font-style:italic; color:papayawhip; 
+text-align:left; padding-left:1em; padding-right:1em;}
 img {
-    width: 59%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 400px;
 }
 
 .featureBlock {
